@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-course-dhiraj"
+		},
+		"LS_datalake_Dhiraj_accountKey": {
+			"value": ""
+		},
+		"LS_datalake_Dhiraj_properties_typeProperties_url": {
+			"value": "https://storageadfdhiraj.dfs.core.windows.net/"
+		},
+		"Souce GIT_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
